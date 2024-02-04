@@ -1,4 +1,4 @@
-const dbConnect=require('./mongoPractice')
+const dbConnect=require('./mongoIn1')
 
 
 // dbConnect().then((collection)=>{
