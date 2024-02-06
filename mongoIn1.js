@@ -29,5 +29,5 @@ async function dbConnect(){
 //         })
 //     })
 // }
-dbConnect();
+
 module.exports=dbConnect;
