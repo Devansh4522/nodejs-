@@ -4,14 +4,14 @@ const client=new MongoClient(url);
 let database='youtube';
 
 
-async function getData(){
+async function dbConnect(){
     let result =await client.connect();
     let db=result.db(database);
     let collection =db.collection('videos');
     let response=await collection.find().toArray();
     console.log(response);
 }
-getData();
+dbConnet();
 
 
 
